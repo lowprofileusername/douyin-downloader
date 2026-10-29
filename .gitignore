@@ -1,0 +1,28 @@
+# 打包产物
+DouyinDownloader/dist/
+DouyinDownloader/dist_single/
+DouyinDownloader/build*/
+*.exe
+*.7z
+*.zip
+*.spec.bak
+
+# 随附浏览器内核（234MB，按需用 build_runtime.py 生成，不入库）
+DouyinDownloader/runtime/
+
+# 离线依赖缓存（wheelhouse，70MB）
+wheelhouse/
+tools/
+
+# 下载的视频成品
+downloads/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 工作区数据
+.workbuddy/
